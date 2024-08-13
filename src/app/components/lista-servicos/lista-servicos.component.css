@@ -1,0 +1,14 @@
+#servicos{
+    margin: 2em;
+}
+
+#titulo{
+    margin-left: 13em;
+    margin-bottom: 1em;
+    color: rgb(20, 20, 116);
+    font-weight: bold;
+}
+
+strong{
+    color: rgb(20, 20, 116);
+}

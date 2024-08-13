@@ -1,0 +1,76 @@
+#titulo{
+    color: rgb(20, 20, 116);
+    font-weight: bold;
+    margin-left: 1.5em;
+}
+
+body{
+    background-color: aquamarine;
+    font-size: 1em;
+    color: rgb(20, 20, 116);
+    justify-content: center;    
+}
+
+input, select, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(20, 20, 116);
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo select{
+    padding: 0.2em;
+    border: 1px solid rgb(25, 25, 100);
+    box-shadow: 2px 2px 2px rgb(19, 19, 88);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+#botao{
+    background-color: rgb(34, 34, 185);   
+    font-size: 1.2em;
+    border: 0;
+    margin: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(21, 21, 184);
+    position: absolute;
+    color: aqua;
+    font-weight: bold;
+    margin-left: 11em;
+    margin-top: 2em;
+   
+}   
+
+#botao:hover{
+    background-color: rgb(77, 77, 215);
+}
+
+#formulario{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.linha-formulario{
+    display: flex;
+}
+
+#nome, #email, #endereco{
+    width: 300px;
+}
+
+#data-nascimento{
+    margin-left: 8em;
+}
+
