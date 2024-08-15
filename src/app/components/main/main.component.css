@@ -1,11 +1,52 @@
-img{
+#img1, #img2, #img3{
     height: 600px;
     width: 500px;
 }
 
-#carouselExample{
+#carouselExampleAutoplaying{
     margin: 10px;
-    border: 5px solid blue;
+    border: 5px solid rgb(20, 20, 116);
     border-radius: 5px;
 }
+
+#texto{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(20, 20, 116);    
+}
+
+.card{
+    margin: 10px;
+    border: 5px solid rgb(20, 20, 116);
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+#produtos{
+    display: flex;
+    
+}
+
+.card-img-top{
+    height: 400px;
+}
+
+h5{
+    font-weight: bold;
+    color: rgb(20, 20, 116);
+    text-align: center;
+}
+
+a{
+    margin-left: 5em;
+}
+
+.preco{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    
+}
+
 

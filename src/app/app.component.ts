@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainComponent } from './components/main/main.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     RouterOutlet,
     NavbarComponent,
     MainComponent,
-    CadastroComponent
+    CadastroComponent,
+    RodapeComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
