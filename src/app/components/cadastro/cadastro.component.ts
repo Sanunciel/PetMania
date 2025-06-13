@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-cadastro',
   standalone: true,
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './cadastro.component.css'
 })
 export class CadastroComponent {
+  
+
+
+
 
 }
