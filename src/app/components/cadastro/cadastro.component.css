@@ -29,7 +29,7 @@ input, select, button{
     padding: 0.2em;
     border: 1px solid rgb(25, 25, 100);
     box-shadow: 2px 2px 2px rgb(19, 19, 88);
-    display: block;
+   
 }
 
 .campo select option{
@@ -59,7 +59,15 @@ input, select, button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    
 }
+
+#form{
+    display: grid;
+    
+}
+
+
 
 .linha-formulario{
     display: flex;
@@ -71,5 +79,11 @@ input, select, button{
 
 #data-nascimento{
     margin-left: 8em;
+}
+
+@media(max-width:700px){
+    #form{
+        grid-template-columns: 1fr;
+    }
 }
 

@@ -21,11 +21,17 @@
     border: 5px solid rgb(20, 20, 116);
     border-radius: 5px;
     background-color: aqua;
-    display: flex;
+    min-width: 120px;
+    
+    
+    
 }
 
 #produtos{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
 }
 
