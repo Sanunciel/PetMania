@@ -1,7 +1,7 @@
 #titulo{
     color: rgb(20, 20, 116);
     font-weight: bold;
-    margin-left: 1.5em;
+    text-align: center;
 }
 
 body{
@@ -45,7 +45,7 @@ input, select, button{
     box-shadow: 2px 2px 2px rgb(21, 21, 184);
     color: aqua;
     font-weight: bold;
-    margin-left: 11em;
+    margin-left: 12em;
     margin-top: 2em;
    
 }   
@@ -64,7 +64,6 @@ input, select, button{
 
 #form{
     display: grid;
-    
 }
 
 
@@ -81,5 +80,21 @@ input, select, button{
     margin-left: 8em;
 }
 
+@media (max-width:768px){
+    body{
+        font-size: 0.5em;
+    }
+    #nome, #email, #endereco{
+        width: 150px;
+    }
+    #formulario{
+        width: 300px;
+    }
+    #titulo {
+        font-size: medium;
+    }
+    
 
+   
+}
 

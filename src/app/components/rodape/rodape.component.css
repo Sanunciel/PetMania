@@ -10,3 +10,9 @@ p{
     padding: 2em;
     margin: auto;
 }
+
+@media (max-width:768px){
+   p{
+    font-size: 0.5em;
+   }
+}

@@ -15,9 +15,9 @@ header{
     margin-bottom: 10px;
 }
 
-img{
-    width: 40px;
-    height: 40px;
-    margin-left: 65em;
+@media (max-width:768px){
+    button{
+        font-size: medium;
+    }
 }
 

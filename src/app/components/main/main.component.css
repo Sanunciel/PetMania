@@ -56,4 +56,23 @@ a{
     
 }
 
+@media (max-width:768px){
+    #texto{
+        font-size: 1em;
+    }
+    h5{
+        font-size: 1em;
+    }
+    .preco{
+        font-size: 0.8em;
+    }
+    a{
+        font-size: 0.8em;
+        margin-left: 6.5em;
+    }
+    .card-img-top{
+        height: 200px;
+    }
+}
+
 
